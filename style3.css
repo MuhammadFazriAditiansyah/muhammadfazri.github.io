@@ -67,10 +67,14 @@
     font-weight:bolder ;
 }
 h2 {
-    margin-left: 600px;
+    margin-left: 550px;
     margin-top: -200px;
     position: absolute;
     color: white;
+    font-family: 'IBM Plex Mono', monospace;
+}
+p {
+    font-family: 'IBM Plex Mono', monospace;
 }
 body {
     background-image: url(https://i.pinimg.com/originals/80/f7/e4/80f7e41346e786fe41b46c23096cabaf.gif);
