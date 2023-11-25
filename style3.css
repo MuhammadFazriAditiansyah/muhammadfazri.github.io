@@ -38,11 +38,11 @@
     justify-content: center;
     align-items: center;
 }
-.navigation >li {
+.navigation li {
     list-style-type: none;
     padding: 15px;
 }
-.navigation > li > a{
+.navigation li a{
     color: white;
     font-size: 20px;
     text-decoration: none;  
@@ -66,16 +66,17 @@
     border-radius: 40px;
     font-weight:bolder ;
 }
-h2 {
-    margin-left: 550px;
-    margin-top: -210px;
-    position: absolute;
+     /* Home */
+
+.teks {
+    margin-top: 190px;
+    margin-left: 40px;
     color: white;
     font-family: 'IBM Plex Mono', monospace;
-    background-color: #222;
-    opacity: 65%;
     border-radius: 10%;
     padding: 20px;
+    opacity: 70%;
+   
 }
 p {
     font-family: 'IBM Plex Mono', monospace;
@@ -83,26 +84,178 @@ p {
 body {
     background-image: url(https://i.pinimg.com/originals/80/f7/e4/80f7e41346e786fe41b46c23096cabaf.gif);
     background-size: cover;
-    height:700px;
+    /* background-repeat: no-repeat; */
 }
 .poto {
     height: 350px;
-    margin-top: 120px;
+    margin-top: 60px;
     margin-left: 150px;
     border-radius: 0 20% 20% 20%;
     box-shadow: 0px 0px 10px red;
 }
 footer {
-    padding: 10px;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 20px;
     color: white;
     background-color:#222;
     text-align: center;
     font-weight: bold;
-    margin-top:100px; 
     opacity: 70%; 
 }
+
+    /* Contact */
+
+.profile {
+    color: white;
+    margin-top:140px;
+    margin-left:520px;
+    font-style: italic;
+    opacity: 70%;
+}
+.p1 {
+    margin-top: 20px;
+    color: white;
+    margin-left: 650px;
+    font-style: italic;
+    opacity: 70%;
+}
+.github {
+    height: 105px;
+    width: 105px;
+    box-shadow: 0px 0px 10px rgb(252, 252, 252);
+    margin-top: -150px;
+    margin-left: 50px;
+    border-radius: 30%;   
+}
+.github:hover {
+    height: 120px;
+    width: 120px;
+    transition: ease-in-out;
+    border-radius: 30%;
+}
+.wa {
+    height: 105px;
+    width: 105px;
+    box-shadow: 0px 0px 10px rgb(4, 255, 4);
+    margin-top: 40px;
+    margin-left: 520px;
+    border-radius: 30%;
+}
+.wa:hover {
+    height: 120px;
+    width: 120px;
+    transition: ease-in-out;
+    border-radius: 30%;
+}
+.ig {
+    height: 100px;
+    box-shadow: 0px 0px 10px rgb(247, 2, 133);
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius: 30%;
+}
+.ig:hover {
+    height: 115px;
+    width: 115px;
+    transition: ease-in-out;
+    border-radius: 30%;
+}
+.fotodiri  {
+    height: 340px;
+    margin-right: 500px;
+    margin-top: -290px;
+    margin-left: 120px;
+    border-radius:50%;
+    box-shadow: 0px 0px 10px red;
+}
+.fotodiri:hover {
+    height: 355px;
+    width: 355px;
+    transition: ease-in-out;
+    border: radius 50%; ;
+}
+
+     /* Achievement */
+
+.para {
+    color: white;
+    margin-top: 80px;
+    font-size: 20px;
+    font-style: italic;
+    opacity: 70%;
+    margin-left: 400px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 .serti {
     height: 390px;
+    margin-top: 40px;
+    margin-left: 350px;
+}
+
+main {
+    display: flex;
+}
+
+       /* Responsive */
+
+@media screen and (max-width:768px) {
+body {
+    /* width: 100%; */
+}
+
+.poto {
+    margin-left: 230px;
     margin-top: 100px;
-    margin-left: 400px;
+    height: 330px;
+}
+main {
+    flex-direction: column;
+}
+.teks {
+    margin-top: 60px;
+    margin-left: 80px;
+}
+footer {
+    margin-top: 180px;
+}
+.fotodiri {
+    margin-top: -900px;
+    margin-left: 390px;
+    height: 280px;
+}
+.profile {
+    margin-left: -0px;
+    margin-top: 150px;
+    font-size: 20px;
+}
+.p1 {
+    margin-left: -0px;
+    font-size: 20px;
+}
+.wa {
+    margin-left: -0px;
+    margin-top: 150px;
+    height: 90px;
+    width: 90px;
+}
+.ig {
+    height: 90px;
+}
+.github {
+    height: 85px;
+    width: 85px;
+}
+.para {
+    margin-top: 90px;
+    font-size: 15px;
+    margin-left: -0px;
+}
+.serti {
+    margin-top: 60px;
+    height: 250px;
+    margin-left: -0px;
+}
+
 }
